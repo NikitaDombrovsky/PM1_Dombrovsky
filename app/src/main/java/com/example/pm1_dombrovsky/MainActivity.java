@@ -81,6 +81,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             Toast toast = Toast.makeText(this, "Загаданное число меньше! Осталось попыток: " + revshet, Toast.LENGTH_SHORT);
             toast.show();
 
+
+            //
         }
         if (res < i && chek != 1) {
             textView.setText("<");
